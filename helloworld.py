@@ -20,4 +20,14 @@ tamanho = len(names) == 4
 # Loops
 for name in names:
     print("Nome: {0}".format(name))
-    
+
+# def var_kwargs(name, **kwargs):
+#     print(name)
+#     print(kwargs["description"], kwargs["feedback"])
+#
+#
+# add_student(name = "luciano", student_id=15)
+# print_students_titlecase()
+#
+# var_args("Luciano", "Teixeira", "Correia")
+# var_kwargs("Correia", description="Loves Python", feedback=None)
